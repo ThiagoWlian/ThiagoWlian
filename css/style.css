@@ -1,0 +1,596 @@
+
+body{
+    font-family: "Lato", sans-serif;
+    overflow-x:hidden;
+    background-color: #F5F5F5;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+a:link{
+  text-decoration: none;
+}
+
+a:hover{
+  color: #87CEFA;
+}
+
+h2{
+  color: #2b4b80;
+  font-size: 50px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.InicioTitulo{
+  height:100%;
+  width: 29%;
+  text-align: right;
+  color: #353535;
+  font-size: 35px;
+  font-weight: 500;
+  border-top-right-radius: 45px;
+  border-bottom-right-radius: 120px;
+  margin-bottom: 16px;
+  background-color: #00BFFF;
+}
+
+.InicioTitulo p{
+  margin-top: 8%;
+  margin-right: 2%;
+  color: white;
+}
+
+.TextoBlack{
+  color: black;
+}
+
+.TituloTextoBlackMenu{
+  color: #2b4b80;
+  margin-left: 2%;
+  font-weight: 700;
+  font-size: 160%;
+}
+
+.Pagina{
+  width: 100%;
+  height: 1500px;
+  background-color: #F5F5F5;
+}
+
+.Menu{
+  width: 100%;
+  position: fixed;
+  opacity: 0.9;
+  z-index: 100;
+}
+
+.logincadastro{
+  width: 13%;
+  height: 100%;
+  margin-left: 5.5%;
+  display: flex;
+}
+
+.logincadastro button{
+  text-decoration: none;
+  border: 0px solid;
+  border-radius: 7%;
+  font-size: 17px;
+  color: white;
+  font-weight: 600;
+  background-color: #09cc7f;
+  padding: 5% 4% 5% 4%;
+  margin-top: 5%;
+  margin-right: 5%;
+}
+
+.Menu li button:hover{
+  background-color: #87CEFA;
+}
+
+.navbar{
+  background-color: white;
+}
+
+.ItemMenu{
+  margin-left: 5%;
+  margin-top: 4%;
+}
+
+.Itens{
+  margin-bottom: 0.7%;
+}
+
+.Banner{
+  width: 100%;
+  height: 44%;
+  background-color: white;
+  display: flex;
+}
+
+.cor{
+  width: 100%;
+  height: 100%;
+  background-color: rgba(10,23,55,0.0);
+  padding-top: 20%;
+  padding-left: 8%;
+  display: flex;
+}
+
+.descricao{
+  width: 100%;
+  height: 20%;
+  padding-top: 6%;
+  background-color: #09cc7f;
+}
+
+.descricao h2{
+  color: #0956cc;
+}
+
+.descricao p{
+  width: 70%;
+  text-align: center;
+  font-size: 22px;
+  margin-left: 15%;
+  margin-top: 2%;
+  color: white;
+  line-height: 140%;
+}
+
+.whatsapp-link {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+  background-color: #25d366;
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 1px 1px 2px #888;
+  z-index: 1000;
+  background-image: url(../img/IconWP.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.ImagemBanner{
+  width: 70%;
+  height: 100%;
+  margin-bottom: 100%;
+  border-top-left-radius: 1000px;
+  background-image: url(../img/Banner2.jpg);
+  background-size: cover;
+}
+
+.conteudo-banner{
+  width: 45%;
+  height: 50%;
+  margin-top: 13%;
+  margin-left: 7%;
+  z-index: 10;
+}
+
+.titulo{
+  width: 100%;
+  height: 24%;
+}
+
+.titulo h1{
+  text-align: left;
+  font-size: 65px;
+  color: #2b4b80;
+  font-weight: 700;
+}
+
+.texto{
+  width: 100%;
+  height: 25%;
+  color: gray;
+  font-size: 150%;
+  word-spacing: 25%;
+  line-height: 110%;
+}
+
+.BotaoBanner button{
+  padding: 5% 4% 5% 4%;
+  text-decoration: none;
+  border: 0px solid;
+  border-radius: 5px;
+  font-size: 22px;
+  color: white;
+  font-weight: 600;
+  background-color: #09cc7f;
+}
+
+.porquenos{
+  width: 100%;
+  height: 40%;
+  padding-top: 5%;
+}
+
+.ItensPorque{
+  width: 100%;
+  height: 80%;
+  margin-top: 2%;
+  margin-left: 2.5%;
+  display: flex;
+}
+
+.ItemPorque{
+  width: 25%;
+  height: 85%;
+  margin-left: 5%;
+  margin-top: 1.5%;
+  background-color: white;
+  border: solid 1px rgba(144, 144, 144, 0.25);
+  border-radius: 5px;
+}
+
+.ItemPorque h3{
+  font-size: 21px;
+  color: #2b4b80;
+  text-align: center;
+  margin-top: 3%;
+}
+
+.ImagemItem{
+  width: 50%;
+  height: 40%;
+  margin-left: 25%;
+  background-image: url(../img/dedicacao.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.ImagemItem1{
+  width: 50%;
+  height: 40%;
+  margin-left: 25%;
+  background-image: url(../img/seguranca.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.ImagemItem3{
+  width: 50%;
+  height: 40%;
+  margin-left: 25%;
+  background-image: url(../img/credito.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.TituloPorque{
+  width: 70%;
+  height: 11%;
+  margin-top: 5%;
+  margin-left: 15%;
+}
+
+.TextoPorque{
+  width: 90%;
+  height: 35%;
+  margin-left: 5%;
+}
+
+.TextoPorque p{
+  font-weight: 100;
+  font-size: 18px;
+  text-align: center;
+  color: grey;
+  line-height: 135%;
+  word-spacing: 10%;
+}
+
+
+.TituloConteudoPart{
+  width: 60%;
+  height: 15%;
+  margin-top: 3%;
+  margin-left: 0%;
+  display: flex;
+}
+
+.ResolvaProblemas{
+  width: 85%;
+  height: 80%;
+  margin: auto;
+  margin-top: 1%;
+  margin-bottom: 4%;
+  background-color: white;
+  border-radius: 5px;
+  border: solid 1px rgba(144, 144, 144, 0.25);
+  display: flex;
+}
+
+.BotaoProblemas button{
+  padding: 3% 4% 3% 4%;
+  text-decoration: none;
+  margin-top: 5%;
+  border: 0px solid;
+  border-radius: 5px;
+  font-size: 22px;
+  color: white;
+  font-weight: 600;
+  background-color: #09cc7f;
+}
+
+.ConteudoProblemas{
+  width: 55%;
+  height: 90%;
+  margin-top: 5%;
+}
+
+.ConteudoProblemas h2{
+  text-align: left;
+}
+
+.ConteudoProblemas p{
+  margin-top: 5%;
+  font-weight: 100;
+  font-size: 18px;
+  text-align: left;
+  color: gray;
+  line-height: 135%;
+  word-spacing: 10%;
+}
+
+.ImagemProblemas{
+  width: 45%;
+  height: 110%;
+  background-image: url(../img/a1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.SejaCliente{
+  width: 100%;
+  height: 40%;
+  padding-top: 4%;
+  background-color: #09cc7f;
+  margin-top: 5%;
+}
+
+.SejaCliente h2{
+  color: white;
+}
+
+.SejaClienteCollapse{
+  margin-top: 5%;
+  width: 100%;
+  height: 150%;
+  background-color: #363636;
+}
+
+.botoes{
+  width: 20%;
+  height: 15%;
+  margin-left: 41.5%;
+  margin-top: 2%;
+  display: flex;
+}
+
+.botoes button{
+  margin-left: 2%;
+  padding: 2.5% 3% 10% 3%;
+  text-decoration: none;
+  border: 2px solid #014a2d;
+  border-radius: 3%;
+  font-size: 17px;
+  font-weight: 1;
+  color: #014a2d;
+  font-weight: 600;
+  background-color: rgba(0,0,0,0);
+}
+
+.calculadora{
+  margin-top: 4%;
+  background-color: #09cc7f;
+  border: none;
+}
+
+.ConteudoCalculadora{
+  display: flex;
+  margin-bottom: 3%;
+}
+
+.CalculadoraJurosSimples{
+  width: 50%;
+  height: 250px;
+  margin-top: 2%;
+}
+
+.ConteudoCalculadoraInformacoes{
+  width: 50%;
+  height: 250px;
+  border-left: 2px solid #014a2d;
+}
+
+.calculadora input{
+  border: none;
+  width: 50%;
+  padding: 2%;
+  border-radius: 5px;
+  display: block;
+  margin-bottom: 4%;
+  margin-left: 45%;
+}
+
+.calculadora label{
+  margin-left: 45%;
+  margin-bottom: 1%;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.calculadora button{
+  padding: 2.5% 3% 2.5% 3%;
+  text-decoration: none;
+  border: 2px solid #014a2d;
+  border-radius: 3%;
+  font-size: 17px;
+  font-weight: 1;
+  color: #014a2d;
+  font-weight: 600;
+  background-color: rgba(0,0,0,0);
+  margin-left: 45%;
+}
+
+.ConteudoCalculadoraInformacoes{
+  margin-top: 0.5%;
+  padding-left: 2%;
+}
+
+.ConteudoCalculadoraInformacoes h4{
+  color: #014a2d;
+  margin-top: 2%;
+  font-size: 30px;
+  margin-bottom: 3%;
+}
+
+.ConteudoCalculadoraInformacoes p{
+  word-spacing: 2%;
+  line-height: 150%;
+  color: white;
+  font-size: 17px;
+  width: 70%;
+}
+
+.CalculadoraFechar button{
+  margin-top: 5%;
+  padding: 1% 3% 1% 3%;
+}
+
+.modelTamanho{
+  width: 27%;
+  margin-left: 37%;
+  margin-top: 7%;
+}
+
+h5{
+  margin-left: 5%;
+  cursor: pointer;
+}
+
+.blue{
+  color: #00BFFF;
+}
+
+.PartesLogin{
+  margin-top: 2%;
+  margin-left: 5%;
+}
+
+.PartesLogin label{
+  font-size: 95%;
+  font-weight: 600;
+}
+
+.PartesLogin input{
+  display: block;
+  padding-right: 22%;
+  padding-bottom: 1%;
+  padding-top: 1%;
+  margin-top: 10%;
+  margin-bottom: 3%;
+  border-radius: 3px;
+  font-size: 90%;
+  background-color: rgba(220, 220, 220, 0.5);
+  margin-top: 1%;
+  border: solid 1px rgba(144, 144, 144, 0.45);
+}
+
+.PartesLogin input:focus{
+  border-color: blue;
+}
+
+.buttonModelTamanho{
+  width: 100%;
+  margin-left: 3%;
+}
+
+.FAQ{
+  width: 85%;
+  height: 120%;
+  background-color: white;
+  border-radius: 5px;
+  border: solid 1px rgba(144, 144, 144, 0.45);
+  padding-top: 5%;
+  margin: auto;
+  margin-top: 5%;
+}
+
+.Perguntas{
+  width: 100%;
+  height: 100%;
+  margin-top: 7%;
+  display: flex;
+}
+
+.FAQ h6{
+  font-size: 23px;
+  color: #0956cc;
+  text-align: justify;
+}
+
+.FAQ p{
+  font-weight: 100;
+  font-size: 18px;
+  line-height: 135%;
+  word-spacing: 10%;
+  margin-top: 3%;
+  color: gray;
+}
+
+.ColunaFAQ1{
+  width: 50%;
+  height: 80%;
+}
+.ColunaFAQ2{
+  width: 50%;
+  height: 80%;
+}
+
+.PerguntaContainer {
+  width: 80%;
+  height: 48%;
+  margin-left: 7%;
+}
+
+footer{
+  width: 100%;
+  height: 70%;
+  display: flex;
+  padding: 3% 4% 0% 6%;
+}
+
+.footerSection{
+  width: 25%;
+  height: 100%;
+  margin-right: 3%;
+}
+
+.footerSection h4{
+  text-align: left;
+  font-size: 250%;
+  font-weight: 700;
+  margin-bottom: 5%;
+}
+.footerSection p {
+  width: 100%;
+  font-weight: 400;
+  text-align: justify;
+}
+
+.footerSection h7 {
+  font-weight: 700;
+}
